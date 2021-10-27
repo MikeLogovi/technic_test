@@ -1,0 +1,13 @@
+
+<p>
+  <strong><%=Client.human_attribute_name(:first_name)%>:</strong>
+  <%= @client.first_name %>
+</p>
+
+<p>
+  <strong><%=Client.human_attribute_name(:last_name)%>:</strong>
+  <%= @client.last_name %>
+</p>
+
+<%= link_to t("Edit"), edit_client_path(@client) %> |
+<%= link_to t('Back'), clients_path %>

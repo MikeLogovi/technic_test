@@ -1,0 +1,41 @@
+---
+fr:
+  Back: Retourner en arrière
+  Edit: Mettre à jour
+  Show: Consulter
+  activerecord:
+    attributes:
+      client:
+        first_name: Prénoms
+        last_name: Nom de famille
+      user:
+        email: E-mail
+        password: Mot de passe
+        password_confirmation: Confirmez le mot de passe
+        remember_me: Se souvenir de moi
+  all_clients: Les clients
+  are_you_sure: En êtes vous sûr(e)?
+  client_created: Client créé avec succès
+  client_destroyed: Client supprimé avec succès
+  client_updated: Client mis à jour avec succès
+  clients: Les clients
+  did_not_receive_instructions: Vous n'avez pas recu les instructions?
+  did_not_receive_unlock_instructions: Vous n'avez pas reçu d'instructions de déverrouillage?
+  edit_client: Modifier le client
+  english: Anglais
+  errors:
+    messages:
+      not_saved: Non sauvegardé
+  forgot_password: Mot de passe oublié
+  french: Francais
+  hello: Salut tout le monde
+  home: Acceuil
+  minimum_characters: caractères minimum
+  models:
+    users: Users
+  new_client: Nouveau client
+  sign_in: Connexion
+  sign_out: Déconnexion
+  sign_up: Inscription
+  technic_test: Test Technique
+  welcome: Bienvenue
