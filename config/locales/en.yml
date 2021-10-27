@@ -46,7 +46,7 @@ en:
   p1: Technical test to integrate
   p2: In this application, you can do the CRUD of customer accounts once you are registered.
     This application is equipped with an i18n ( English and French ), as well as unit
-    tests with RSpec and FactoryBot! Sqlite has been used for development purpose while in production, postgresql is used.
+    tests with RSpec and FactoryBot, also seeding for database is implemented! Sqlite has been used for development purpose while in production, postgresql is used.
   sign_in: Sign in
   sign_out: Sign out
   sign_up: Sign up
