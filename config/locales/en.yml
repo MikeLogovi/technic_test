@@ -1,6 +1,7 @@
 ---
 en:
   Back: Back
+  Destroy: Destroy
   Edit: Edit
   Show: Show
   activerecord:
@@ -9,12 +10,15 @@ en:
         first_name: First Name
         last_name: Last Name
       user:
+        current_password: Current password
         email: Email
         password: Password
         password_confirmation: Password Confirmation
         remember_me: Remember me
   all_clients: All clients
   are_you_sure: Are you sure?
+  awesome_client: Awesome client
+  cancel_my_account: Cancel my account
   client_created: Client created successfully.
   client_destroyed: Client destroyed successfully.
   client_updated: Client updated successfully.
@@ -22,20 +26,27 @@ en:
   did_not_receive_instructions: Did not receive instructions?
   did_not_receive_unlock_instructions: Did not receive unlock instructions?
   edit_client: Editing client
-  english: English
+  english: Switch to English
   errors:
     messages:
       not_saved: Not saved
   forgot_password: Forgot password
-  french: French
+  french: Switch to French
   hello: Hello world
   home: Home
+  leave_blank_if_you_do_not_want_to_change: Leave blank if you do not want to change
   minimum_characters: characters minimum
   models:
+    user: User
     users: Users
+  my_account: My account
   new_client: New client
+  p1: Technical test to integrate
+  p2: In this application, you can do the CRUD of customer accounts once you are registered. This application is equipped with an i18n ( English and French ), as well as unit tests with RSpec and FactoryBot!
   sign_in: Sign in
   sign_out: Sign out
   sign_up: Sign up
   technic_test: Technic Test
+  unhappy: Unhappy
+  we_need_your_current_password: We need your current password to confirm your changes
   welcome: welcome

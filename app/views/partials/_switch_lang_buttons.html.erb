@@ -1,0 +1,6 @@
+<%= content_tag :li, class:"switch-lang-buttons" do %>
+    <%= link_to t("english"), locale: :en%>
+<% end unless current_page?(locale: :en)%>
+<%= content_tag :li, class:"switch-lang-buttons" do  %>
+    <%= link_to t("french"), locale: :fr%>
+<% end unless current_page?(locale: :fr)%>

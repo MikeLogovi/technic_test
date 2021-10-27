@@ -1,13 +1,17 @@
+<div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold"><%=t('awesome_client')%></h1>
+        <p>
+          <strong><%=Client.human_attribute_name(:first_name)%>:</strong>
+          <%= @client.first_name %>
+        </p>
 
-<p>
-  <strong><%=Client.human_attribute_name(:first_name)%>:</strong>
-  <%= @client.first_name %>
-</p>
+        <p>
+          <strong><%=Client.human_attribute_name(:last_name)%>:</strong>
+          <%= @client.last_name %>
+        </p>
 
-<p>
-  <strong><%=Client.human_attribute_name(:last_name)%>:</strong>
-  <%= @client.last_name %>
-</p>
-
-<%= link_to t("Edit"), edit_client_path(@client) %> |
-<%= link_to t('Back'), clients_path %>
+        <%= link_to t("Edit"), edit_client_path(@client) %> |
+        <%= link_to t('Back'), clients_path %>
+      </div>
+    </div>

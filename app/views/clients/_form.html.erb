@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
+    <%= form.text_field :first_name, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
+    <%= form.text_field :last_name, class:"form-control" %>
   </div>
   <%= form.text_field :user_id , type: :hidden, value: current_user.id%>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-success monster-effect-back",style:"width:100%;margin-top:20px;"%>
   </div>
 <% end %>

@@ -1,3 +1,5 @@
+# You must first create a user with id 107, otherwise, the seeding for 
+# the clients table will not work 
 5.times do
     Client.create(
         first_name: Faker::Name.unique.first_name,

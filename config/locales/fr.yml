@@ -1,6 +1,7 @@
 ---
 fr:
   Back: Retourner en arrière
+  Destroy: Supprimer
   Edit: Mettre à jour
   Show: Consulter
   activerecord:
@@ -9,12 +10,15 @@ fr:
         first_name: Prénoms
         last_name: Nom de famille
       user:
+        current_password: Mot de passe actuel
         email: E-mail
         password: Mot de passe
         password_confirmation: Confirmez le mot de passe
         remember_me: Se souvenir de moi
   all_clients: Les clients
   are_you_sure: En êtes vous sûr(e)?
+  awesome_client: Client incroyable
+  cancel_my_account: Supprimer mon compte
   client_created: Client créé avec succès
   client_destroyed: Client supprimé avec succès
   client_updated: Client mis à jour avec succès
@@ -22,20 +26,29 @@ fr:
   did_not_receive_instructions: Vous n'avez pas recu les instructions?
   did_not_receive_unlock_instructions: Vous n'avez pas reçu d'instructions de déverrouillage?
   edit_client: Modifier le client
-  english: Anglais
+  english: Version anglaise
   errors:
     messages:
       not_saved: Non sauvegardé
   forgot_password: Mot de passe oublié
-  french: Francais
+  french: Versions francaise
   hello: Salut tout le monde
   home: Acceuil
+  leave_blank_if_you_do_not_want_to_change: Laisser vide si vous n'avez pas l'intention
+    de le changer
   minimum_characters: caractères minimum
   models:
-    users: Users
+    user: Compte utilisateur
+    users: Comptes utilisateurs
+  my_account: Mon compte
   new_client: Nouveau client
+  p1: Test technique pour intégrer
+  p2: Dans cette application, vous pouvez faire le CRUD de comptes clients une fois que vous êtes inscrit. Cette application est munie d'une i18n ( Francais et anglais ), ainsi que de tests unitaires avec RSpec et FactoryBot!
   sign_in: Connexion
   sign_out: Déconnexion
   sign_up: Inscription
   technic_test: Test Technique
+  unhappy: Pas content
+  we_need_your_current_password: Nous avons besoin de votre mot de passe actuel pour
+    confirmer les changements
   welcome: Bienvenue
