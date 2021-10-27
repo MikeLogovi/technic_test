@@ -1,6 +1,12 @@
-<%= content_tag :li , class:"switch-lang-buttons-li"  do %>
-    <%= link_to t("english") , locale: :en%>
-<% end unless current_page?(locale: :en)%>
-<%= content_tag :li ,class:"switch-lang-buttons-li" do  %>
-    <%= link_to t("french") , locale: :fr %>
-<% end unless current_page?(locale: :fr)%>
+<% if current_page?('/')%>
+  <%= content_tag :li ,class:"switch-lang-buttons-li" do  %>
+        <%= link_to t("french") , locale: :fr %>
+    <% end unless current_page?(locale: :fr)%>
+<% else %>
+    <%= content_tag :li , class:"switch-lang-buttons-li"  do %>
+        <%= link_to t("english") , locale: :en%>
+    <% end unless current_page?(locale: :en)%>
+    <%= content_tag :li ,class:"switch-lang-buttons-li" do  %>
+        <%= link_to t("french") , locale: :fr %>
+    <% end unless current_page?(locale: :fr)%>
+<% end %>

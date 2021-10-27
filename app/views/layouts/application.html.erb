@@ -18,7 +18,7 @@
   <body class="d-flex flex-column h-100">
       <%= render "partials/header"%>
       <main class="flex-shrink-0">
-        <div class=<%=current_page?(root_path)? "" : "spacefy"%> >
+        <div class=<%=current_page?('/en') or current_page?('/fr') or current_page?('/')  ? "" : "spacefy"%> >
           <% if notice %>
           <%= render "partials/alert"%>
           <% end %>
