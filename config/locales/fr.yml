@@ -47,7 +47,7 @@ fr:
   p1: Test technique pour intégrer
   p2: Dans cette application, vous pouvez faire le CRUD de comptes clients une fois
     que vous êtes inscrit. Cette application est munie d'une i18n ( Francais et anglais
-    ), ainsi que de tests unitaires avec RSpec et FactoryBot!
+    ), ainsi que de tests unitaires avec RSpec et FactoryBot! Sqlite est utilisé en développement et Postgresql en production.
   sign_in: Connexion
   sign_out: Déconnexion
   sign_up: Inscription
