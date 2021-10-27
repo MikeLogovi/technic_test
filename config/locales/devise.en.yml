@@ -71,3 +71,12 @@ fr:
       signed_up: "Votre inscription est enregistrée. Si demandé, un courriel de confirmation vous a été envoyé."
       user:
         signed_up : "Votre inscription est enregistrée. Si demandé, un courriel de confirmation vous a été envoyé."
+        fr:
+  errors:
+    messages:
+      not_found: "n'a pas été trouvé(e)"
+      already_confirmed: "a déjà été confirmé(e)"
+      not_locked: "n'était pas verrouillé(e)"
+      not_saved:
+        one: "1 erreur a empêche cette %{resource} de s enregistrer:"
+        other: "%{count} erreurs ont empêché %{resource} de s'enregistrer:"

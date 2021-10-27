@@ -21,12 +21,14 @@ fr:
   cancel_my_account: Supprimer mon compte
   client_created: Client créé avec succès
   client_destroyed: Client supprimé avec succès
+  client_not_saved: ont empêché ce  client de s'enregistrer
   client_updated: Client mis à jour avec succès
   clients: Les clients
   did_not_receive_instructions: Vous n'avez pas recu les instructions?
   did_not_receive_unlock_instructions: Vous n'avez pas reçu d'instructions de déverrouillage?
   edit_client: Modifier le client
   english: Version anglaise
+  error: erreur
   errors:
     messages:
       not_saved: Non sauvegardé
@@ -43,7 +45,9 @@ fr:
   my_account: Mon compte
   new_client: Nouveau client
   p1: Test technique pour intégrer
-  p2: Dans cette application, vous pouvez faire le CRUD de comptes clients une fois que vous êtes inscrit. Cette application est munie d'une i18n ( Francais et anglais ), ainsi que de tests unitaires avec RSpec et FactoryBot!
+  p2: Dans cette application, vous pouvez faire le CRUD de comptes clients une fois
+    que vous êtes inscrit. Cette application est munie d'une i18n ( Francais et anglais
+    ), ainsi que de tests unitaires avec RSpec et FactoryBot!
   sign_in: Connexion
   sign_out: Déconnexion
   sign_up: Inscription

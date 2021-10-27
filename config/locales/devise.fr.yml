@@ -6,7 +6,7 @@ fr:
       not_locked: "n'était pas verrouillé(e)"
       not_saved:
         one: "1 erreur a empêche cette %{resource} de s enregistrer:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        other: "%{count} erreurs ont empêché %{resource} de s'enregistrer:"
 
   devise:
     registrations:
